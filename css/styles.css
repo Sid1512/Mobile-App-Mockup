@@ -1,0 +1,132 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-weight: 900;
+}
+p{
+  color: #8f8f8f;
+}
+em{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 900;
+}
+.heading1{
+  font-size: 3.5rem;
+}
+.heading2{
+  font-size: 2.5rem;
+}
+.heading3{
+  font-size: 1.5rem;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.dwnld-btn{
+  margin: 5% 3% 2% 0;
+}
+.title-img{
+  width: 60%;
+  transform: rotate(15deg);
+  position: absolute;
+  right: 20%;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.feature-icon{
+  color: #867ae9;
+  margin-bottom: 1rem;
+}
+.feature-icon:hover{
+  color: #52057b;
+}
+.carousel-item{
+  padding: 5% 15%;
+}
+.review-img{
+  width: 12%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.press-logo{
+  width: 12%;
+  margin: 10px 50px;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.cta-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.social-icon{
+  margin: 20px 10px;
+}
+#title{
+  background-color: #52057b;
+  color: white;
+}
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  color: black;
+  position: relative;
+}
+#review{
+  text-align: center;
+  background-color: #867ae9;
+  color: white;
+}
+#press{
+  text-align: center;
+  background-color: #867ae9;
+  padding-bottom: 3%;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+#cta{
+    padding: 3% 15%;
+    background-color: #52057b;
+    color: white;
+    text-align: center;
+}
+#footer{
+  padding: 3% 15%;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+@media (max-width: 992px){
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: static;
+    padding-top: 30px;
+  }
+}
